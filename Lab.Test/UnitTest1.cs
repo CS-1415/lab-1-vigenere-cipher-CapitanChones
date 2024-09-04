@@ -1,20 +1,20 @@
 namespace Lab.Test;
-using System.Diagnostics;
+using static System.Diagnostics.Debug;
 using Lab.Library;
 
 public class UnitTest1
 {
     [Fact]
 
-    public static void TestIsLowercaseLetter()
+    public void TestIsLowercaseLetter()
     {
         var _Char = new inputValidation();
 
-        Debug.Assert(_Char.IsLowercaseLetter('a'));
-        Debug.Assert(_Char.IsLowercaseLetter('b'));
-        Debug.Assert(_Char.IsLowercaseLetter('z'));
-        Debug.Assert(!_Char.IsLowercaseLetter('A'));
-        Debug.Assert(!_Char.IsLowercaseLetter('`'));
-        Debug.Assert(!_Char.IsLowercaseLetter('{'));
+        Assert(_Char.IsLowercaseLetter('a'));
+        Assert(_Char.IsLowercaseLetter('b'));
+        Assert(_Char.IsLowercaseLetter('z'));
+        Assert(!_Char.IsLowercaseLetter('A'));
+        Assert(!_Char.IsLowercaseLetter('`'));
+        Assert(!_Char.IsLowercaseLetter('{'));
     }
 }

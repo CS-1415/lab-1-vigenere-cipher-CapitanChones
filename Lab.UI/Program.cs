@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using Lab.Library;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
