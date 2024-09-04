@@ -6,7 +6,7 @@ public class Vigenere
 }
 public class inputValidation
 {
-    public bool IsLowercaseLetter(char c)
+    public static bool IsLowercaseLetter(char c)
 
     {
         if (c >= 65 && c <= 90)
@@ -18,6 +18,11 @@ public class inputValidation
             return true;
         }
 
+        return false;
+    }
+
+    public static bool IsValidInput(string msg)
+    {
         return false;
     }
 }
