@@ -26,6 +26,12 @@ public class Vigenere
         return (char)temp;
     }
 
+    public static string ShiftMessage(string message, string key)
+    {
+
+        return "pain";
+    }    
+
 }
 public class inputValidation
 {

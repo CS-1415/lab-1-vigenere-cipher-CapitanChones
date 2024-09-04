@@ -40,4 +40,14 @@ public class UnitTest1
 
 
     }
+    [Fact]
+    public void TestShiftMessage()
+    {
+        Assert(Vigenere.ShiftMessage("aaaaaa","bbbbbb") =="bbbbbb" );
+        Assert(Vigenere.ShiftMessage("cccccc","c") =="eeeeee");
+        Assert(Vigenere.ShiftMessage("all lowercase","bc") =="bnmnpfsebuf");
+        Assert(Vigenere.ShiftMessage("this is a message","key") =="dlgcmqkqccwyqi");
+
+        
+    }
 }
