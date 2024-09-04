@@ -9,7 +9,8 @@ internal class Program
         string? msg = Console.ReadLine();
         Console.WriteLine("Write and Encrytion Key:\n");
         string? key = Console.ReadLine();
-        Console.WriteLine(inputValidation.IsValidInput("This is NOT LOwercase"));
+        Console.WriteLine(Vigenere.ShiftMessage("alllowercase", "bc"));
+       
 
 
 

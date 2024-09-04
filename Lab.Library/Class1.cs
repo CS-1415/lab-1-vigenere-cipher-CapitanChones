@@ -1,4 +1,7 @@
-﻿namespace Lab.Library;
+﻿using System.Globalization;
+using System.Text;
+
+namespace Lab.Library;
 
 public class Vigenere
 {
@@ -28,9 +31,22 @@ public class Vigenere
 
     public static string ShiftMessage(string message, string key)
     {
+        char[] msg = message.ToCharArray();
 
-        return "pain";
-    }    
+        char[] _key = key.ToCharArray();
+
+        StringBuilder _result = new StringBuilder();
+        int j = 0;
+        for (int i = 0; i < msg.Length; i++)
+        {
+            if (j >= _key.Length) { j = 0; }
+            _result.Append(Shiftletter(msg[i], _key[j]));
+            j++;
+        }
+       
+        return _result.ToString();
+
+    }
 
 }
 public class inputValidation
