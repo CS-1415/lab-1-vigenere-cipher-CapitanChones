@@ -23,6 +23,23 @@ public class inputValidation
 
     public static bool IsValidInput(string msg)
     {
-        return false;
+        bool isval = false;
+        foreach (char c in msg)
+        {
+            if (c >= 65 && c <= 90)
+            {
+                isval = false;
+                return false;
+            }
+           else if (c <= 122 && c >= 97)
+            {
+                isval= true;
+            }
+            else 
+            {
+                isval= false;
+            }
+        }
+        return isval;
     }
 }

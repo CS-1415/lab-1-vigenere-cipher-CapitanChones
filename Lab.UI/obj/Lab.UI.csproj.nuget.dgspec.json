@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.UI\\Lab.UI.csproj": {}
+    "c:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.UI\\Lab.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.Library\\Lab.Library.csproj": {
+    "c:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.Library\\Lab.Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.Library\\Lab.Library.csproj",
+        "projectUniqueName": "c:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.Library\\Lab.Library.csproj",
         "projectName": "Lab.Library",
-        "projectPath": "C:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.Library\\Lab.Library.csproj",
+        "projectPath": "c:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.Library\\Lab.Library.csproj",
         "packagesPath": "C:\\Users\\fierc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.Library\\obj\\",
+        "outputPath": "c:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.UI\\Lab.UI.csproj": {
+    "c:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.UI\\Lab.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.UI\\Lab.UI.csproj",
+        "projectUniqueName": "c:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.UI\\Lab.UI.csproj",
         "projectName": "Lab.UI",
-        "projectPath": "C:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.UI\\Lab.UI.csproj",
+        "projectPath": "c:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.UI\\Lab.UI.csproj",
         "packagesPath": "C:\\Users\\fierc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.UI\\obj\\",
+        "outputPath": "c:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -93,8 +93,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.Library\\Lab.Library.csproj": {
-                "projectPath": "C:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.Library\\Lab.Library.csproj"
+              "c:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.Library\\Lab.Library.csproj": {
+                "projectPath": "c:\\Users\\fierc\\code\\lab-1-vigenere-cipher-CapitanChones\\Lab.Library\\Lab.Library.csproj"
               }
             }
           }
