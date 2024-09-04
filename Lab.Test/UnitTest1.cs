@@ -22,8 +22,9 @@ public class UnitTest1
     public static void TestIsValidInput()
     {
 
-        Assert(inputValidation.IsValidInput("this is lowercase"));
-        Assert(inputValidation.IsValidInput("this is passes"));
+        Assert(inputValidation.IsValidInput("thisislowercase"));
+        Assert(inputValidation.IsValidInput("thisispasses"));
+        Assert(inputValidation.IsValidInput("nospacesorspecialcharacters"));
         Assert(!inputValidation.IsValidInput("This is NOT LOwercase"));
         Assert(!inputValidation.IsValidInput("this sentance should fail!"));
         Assert(!inputValidation.IsValidInput("this sentance should fail for a different reasoN"));

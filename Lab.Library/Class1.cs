@@ -71,6 +71,7 @@ public class inputValidation
         bool isval = false;
         foreach (char c in msg)
         {
+            
             if (c >= 65 && c <= 90)
             {
                 isval = false;
@@ -83,6 +84,7 @@ public class inputValidation
             else
             {
                 isval = false;
+                return false;
             }
         }
         return isval;
