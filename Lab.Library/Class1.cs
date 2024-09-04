@@ -2,6 +2,29 @@
 
 public class Vigenere
 {
+    public static char Shiftletter(char cval, char ckey)
+    {
+
+        int temp;
+        if (cval == 122)
+        {
+            temp = ckey - 97;
+            temp = 96 + temp;
+            return (char)temp;
+        }
+        temp = ckey - 97;
+        temp = cval + temp;
+
+        //this checks to see if it went past 'z' and corrects it.
+        if (temp > 122)
+        {
+            int _temp = temp - 122;
+            _temp += 96;
+            return (char)_temp;
+        }
+
+        return (char)temp;
+    }
 
 }
 public class inputValidation
@@ -31,13 +54,13 @@ public class inputValidation
                 isval = false;
                 return false;
             }
-           else if (c <= 122 && c >= 97)
+            else if (c <= 122 && c >= 97)
             {
-                isval= true;
+                isval = true;
             }
-            else 
+            else
             {
-                isval= false;
+                isval = false;
             }
         }
         return isval;

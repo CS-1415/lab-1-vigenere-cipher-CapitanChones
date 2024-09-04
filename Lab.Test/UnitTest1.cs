@@ -28,6 +28,15 @@ public class UnitTest1
         Assert(!inputValidation.IsValidInput("this sentance should fail!"));
         Assert(!inputValidation.IsValidInput("this sentance should fail for a different reasoN"));
 
+    }
+
+    [Fact]
+    public void TestShiftLetter()
+    {
+        Assert(Vigenere.Shiftletter('a', 'b') == 'b');
+        Assert(Vigenere.Shiftletter('z', 'b') == 'a');
+        Assert(Vigenere.Shiftletter('b', 'f') == 'g');
+        Assert(Vigenere.Shiftletter('w', 'f') == 'b');
 
 
     }
