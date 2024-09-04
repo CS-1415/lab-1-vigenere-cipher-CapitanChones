@@ -1,0 +1,9 @@
+﻿internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.Clear();
+        Console.WriteLine("This program encrypts the characters of a message using the Vigenere method.\nPlease enter the message:\n");
+
+    }
+}

@@ -1,0 +1,12 @@
+C:\Users\fierc\code\lab-1-vigenere-cipher-CapitanChones\Lab.Library\bin\Debug\net8.0\Lab.Library.deps.json
+C:\Users\fierc\code\lab-1-vigenere-cipher-CapitanChones\Lab.Library\bin\Debug\net8.0\Lab.Library.dll
+C:\Users\fierc\code\lab-1-vigenere-cipher-CapitanChones\Lab.Library\bin\Debug\net8.0\Lab.Library.pdb
+C:\Users\fierc\code\lab-1-vigenere-cipher-CapitanChones\Lab.Library\obj\Debug\net8.0\Lab.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fierc\code\lab-1-vigenere-cipher-CapitanChones\Lab.Library\obj\Debug\net8.0\Lab.Library.AssemblyInfoInputs.cache
+C:\Users\fierc\code\lab-1-vigenere-cipher-CapitanChones\Lab.Library\obj\Debug\net8.0\Lab.Library.AssemblyInfo.cs
+C:\Users\fierc\code\lab-1-vigenere-cipher-CapitanChones\Lab.Library\obj\Debug\net8.0\Lab.Library.csproj.CoreCompileInputs.cache
+C:\Users\fierc\code\lab-1-vigenere-cipher-CapitanChones\Lab.Library\obj\Debug\net8.0\Lab.Library.sourcelink.json
+C:\Users\fierc\code\lab-1-vigenere-cipher-CapitanChones\Lab.Library\obj\Debug\net8.0\Lab.Library.dll
+C:\Users\fierc\code\lab-1-vigenere-cipher-CapitanChones\Lab.Library\obj\Debug\net8.0\refint\Lab.Library.dll
+C:\Users\fierc\code\lab-1-vigenere-cipher-CapitanChones\Lab.Library\obj\Debug\net8.0\Lab.Library.pdb
+C:\Users\fierc\code\lab-1-vigenere-cipher-CapitanChones\Lab.Library\obj\Debug\net8.0\ref\Lab.Library.dll
